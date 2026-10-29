@@ -1,0 +1,30 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+19255550199';
+const phoneDisplay = '(925) 555-0199';
+---
+<Layout title="Inconsistent Hot Water Temperature Concord CA" description="Hot water that turns cold or fluctuates in Concord, CA? Thermostat, element, sediment, or tankless sensor issues diagnosed and repaired same day.">
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Problems → Inconsistent Temperature</div>
+      <h1>Inconsistent Hot Water Temperature</h1>
+      <p>Water that starts hot then turns cold, or never reaches a steady temperature, points to specific failures we can isolate quickly.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Get It Diagnosed — {phoneDisplay}</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Common Causes</h2>
+      <ul>
+        <li>Failing upper or lower heating element (electric)</li>
+        <li>Faulty or mis-calibrated thermostat</li>
+        <li>Heavy sediment reducing effective capacity</li>
+        <li>Dip tube failure (cold water mixing at the top)</li>
+        <li>Tankless flow sensor or modulation problems</li>
+        <li>Undersized unit for household demand</li>
+      </ul>
+      <p>We test elements, thermostats, and recovery performance so the repair targets the real cause instead of guessing.</p>
+      <div style="margin-top:2rem;text-align:center"><a href={`tel:${phone}`} class="btn btn-primary">Schedule Service</a></div>
+    </div>
+  </section>
+</Layout>

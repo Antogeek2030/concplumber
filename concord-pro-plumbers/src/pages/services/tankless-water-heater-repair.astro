@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+19255550199';
+const phoneDisplay = '(925) 555-0199';
+---
+<Layout 
+  title="Tankless Concord Pro Plumbers | Rinnai, Navien & More"
+  description="Tankless water heater repair in Concord, CA. Error code diagnosis, descaling, ignition and flow sensor repair for Rinnai, Navien, Rheem and other brands."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Services → Tankless Repair</div>
+      <h1>Tankless Water Heater Repair in Concord, CA</h1>
+      <p>Tankless units deliver endless hot water but require specialized knowledge. We diagnose error codes, clean heat exchangers, and repair ignition and sensor issues across major brands.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Why Tankless Systems Need Specialized Service</h2>
+      <p>Unlike tank water heaters, tankless (on-demand) units heat water only when a fixture is opened. They rely on precise flow sensors, gas or electric modulation, and clean heat exchangers. Hard water and mineral scale are the leading causes of reduced performance and error codes in the Concord area.</p>
+      <p>We regularly service Rinnai, Navien, Rheem, Noritz, Bosch, and Takagi units.</p>
+
+      <h2>Common Tankless Problems We Fix</h2>
+      <ul>
+        <li><strong>Error codes</strong> — Overheat, ignition failure, flame loss, flow sensor, and exhaust blockage codes are diagnosed with manufacturer procedures, not guesswork.</li>
+        <li><strong>Scale buildup / restricted flow</strong> — Mineral deposits insulate the heat exchanger and trigger overheating protection. Professional descaling restores capacity.</li>
+        <li><strong>Ignition failure</strong> — Dirty burners, faulty igniters, or gas pressure issues prevent the unit from lighting.</li>
+        <li><strong>Cold water sandwich</strong> — Temporary cold bursts between hot draws. Sometimes a control or recirculation issue; sometimes normal behavior that can be improved.</li>
+        <li><strong>Low flow or no hot water</strong> — Clogged inlet filter, failed flow sensor, or undersized unit for the demand.</li>
+      </ul>
+
+      <h2>Maintenance That Prevents Breakdowns</h2>
+      <p>Annual or bi-annual descaling is the single most important maintenance task for tankless owners in hard-water areas. We also clean inlet screens, inspect venting, verify gas pressure, and check for error history in the control board. Regular service dramatically extends the life of the heat exchanger — the most expensive component.</p>
+
+      <h2>When Replacement Makes Sense</h2>
+      <p>If the heat exchanger is cracked or severely scaled beyond recovery, or if the unit is older and repeatedly faulting, we will show you the cost comparison between continued repairs and a new high-efficiency tankless or hybrid option. We install to current code with proper venting and gas line sizing.</p>
+
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary">Schedule Tankless Service</a>
+      </div>
+    </div>
+  </section>
+</Layout>

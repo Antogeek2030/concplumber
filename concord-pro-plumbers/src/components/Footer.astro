@@ -1,0 +1,41 @@
+---
+const phone = '+19255550199';
+const phoneDisplay = '(925) 555-0199';
+const year = new Date().getFullYear();
+---
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Concord Pro Plumbers</h4>
+        <p>Licensed water heater repair, replacement, and maintenance serving Concord and Contra Costa County. Same-day service, upfront pricing, written guarantee.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <p><a href="/services/emergency-water-heater-repair/">Emergency Repair</a></p>
+        <p><a href="/services/tank-water-heater-repair/">Tank Repair</a></p>
+        <p><a href="/services/tankless-water-heater-repair/">Tankless Repair</a></p>
+        <p><a href="/services/water-heater-installation/">Installation</a></p>
+        <p><a href="/services/water-heater-maintenance/">Maintenance</a></p>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <p><a href="/blog/">Blog</a></p>
+        <p><a href="/problems/no-hot-water/">No Hot Water</a></p>
+        <p><a href="/problems/leaking-water-heater/">Leaking Unit</a></p>
+        <p><a href="/problems/strange-noises/">Strange Noises</a></p>
+        <p><a href="/problems/rusty-water/">Rusty Water</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href={`tel:${phone}`}>{phoneDisplay}</a></p>
+        <p>2644 Richard Ave<br />Concord, CA 94520</p>
+        <p>Open 24 / 7 for emergencies</p>
+        <p style="margin-top:0.75rem"><a href="/service-areas/">Service Areas</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {year} Concord Pro Plumbers. All rights reserved. | <a href="/privacy/">Privacy Policy</a></p>
+    </div>
+  </div>
+</footer>

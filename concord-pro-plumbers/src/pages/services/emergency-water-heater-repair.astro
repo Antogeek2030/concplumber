@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+19255550199';
+const phoneDisplay = '(925) 555-0199';
+---
+<Layout 
+  title="Emergency Concord Pro Plumbers | 24/7 Same-Day Service"
+  description="24/7 emergency water heater repair in Concord, CA. Fast response for no hot water, leaks, and failures. Licensed technicians, upfront pricing."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → <a href="/services/emergency-water-heater-repair/">Services</a> → Emergency Repair</div>
+      <h1>Emergency Water Heater Repair in Concord, CA</h1>
+      <p>When hot water fails at the worst moment — nights, weekends, or holidays — our licensed technicians respond fast across Concord and Contra Costa County.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay} — 24/7</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content-block">
+      <h2>When You Need Emergency Water Heater Service</h2>
+      <p>Concord homeowners call for emergency repair most often when there is complete loss of hot water, an active leak flooding a garage or closet, or a gas smell near a gas water heater. These situations cannot wait until business hours. Cold showers, water damage, and safety concerns escalate quickly.</p>
+      <p>We treat the following as priority same-day / after-hours calls:</p>
+      <ul>
+        <li>No hot water at all (tank or tankless)</li>
+        <li>Active leaking from the tank, fittings, or T&amp;P valve</li>
+        <li>Gas odor near a gas water heater</li>
+        <li>Burning smell or scorch marks on an electric unit</li>
+        <li>Water heater making loud banging or popping with visible distress</li>
+      </ul>
+
+      <h2>What Happens When You Call</h2>
+      <ol>
+        <li><strong>You reach us</strong> — Phone or text. Tell us what is happening. No technical knowledge required.</li>
+        <li><strong>We dispatch quickly</strong> — Average response under 60 minutes in Concord during normal conditions. Fully stocked trucks.</li>
+        <li><strong>Full diagnostic</strong> — We inspect the unit, electrical or gas supply, pressure, anode, and surrounding area for water damage risk.</li>
+        <li><strong>Clear written quote</strong> — Before any repair begins you receive a straightforward estimate. Approve or decline — your decision.</li>
+        <li><strong>Repair or temporary safety measures</strong> — Most common failures are fixed on the first visit. If replacement is the only safe option, we explain why and can often install the same day.</li>
+      </ol>
+
+      <h2>Common Emergency Failures We See in Concord</h2>
+      <h3>Failed Heating Element (Electric)</h3>
+      <p>Upper or lower elements burn out. Symptoms: no hot water or water that runs lukewarm then cold. Replacement is usually a same-visit repair when the tank is otherwise sound.</p>
+      <h3>Pilot Out / Thermocouple Failure (Gas)</h3>
+      <p>Pilot will not stay lit. Often the thermocouple has failed. A quick, inexpensive part swap restores hot water in most cases.</p>
+      <h3>Tank Leak</h3>
+      <p>Once the steel tank itself is leaking, repair is not possible. We shut off the water supply, drain the unit safely, and discuss same-day replacement options that meet California seismic requirements.</p>
+      <h3>T&amp;P Valve Discharging</h3>
+      <p>The temperature-and-pressure relief valve may open due to excessive pressure or temperature. We diagnose the root cause (thermal expansion, faulty thermostat, or closed system) rather than simply replacing the valve repeatedly.</p>
+
+      <h2>Why Concord Homeowners Choose Us for Emergencies</h2>
+      <ul>
+        <li>True 24/7 availability — nights, weekends, holidays</li>
+        <li>No after-hours surcharge surprises — pricing discussed upfront</li>
+        <li>Licensed &amp; insured California plumbing technicians</li>
+        <li>Stocked vehicles for elements, thermostats, thermocouples, valves, and common tankless parts</li>
+        <li>Written workmanship guarantee on repairs</li>
+      </ul>
+
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary" style="font-size:1.1rem">Call Now for Emergency Service — {phoneDisplay}</a>
+      </div>
+    </div>
+  </section>
+</Layout>

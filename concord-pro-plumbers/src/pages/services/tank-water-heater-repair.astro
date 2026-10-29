@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+19255550199';
+const phoneDisplay = '(925) 555-0199';
+---
+<Layout 
+  title="Tank Concord Pro Plumbers | Gas & Electric"
+  description="Expert tank water heater repair in Concord, CA. Gas and electric units. Element, thermostat, anode, and leak diagnosis. Same-day service available."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Services → Tank Repair</div>
+      <h1>Tank Water Heater Repair in Concord, CA</h1>
+      <p>Traditional tank water heaters power most Concord homes. When they fail, we diagnose accurately and repair with quality parts — or give honest advice when replacement makes more sense.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Get a Quote — {phoneDisplay}</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Gas &amp; Electric Tank Water Heater Experts</h2>
+      <p>Most homes in Concord and Contra Costa County still rely on storage-tank water heaters. These units are reliable but develop predictable failure points as they age: heating elements, thermostats, thermocouples, anode rods, and eventually the tank itself. Hard water common in parts of the East Bay accelerates sediment buildup and corrosion.</p>
+      <p>We service all major brands including Rheem, A.O. Smith, Bradford White, Whirlpool, GE, and State.</p>
+
+      <h2>Repairs We Perform Daily</h2>
+      <h3>Heating Element Replacement (Electric)</h3>
+      <p>Upper and lower elements are the most common electric failures. We test each element for continuity and resistance, replace only what is needed, and verify recovery time after the repair.</p>
+      <h3>Thermostat Replacement</h3>
+      <p>Faulty thermostats cause water that is too hot, too cold, or that cycles incorrectly. Dual-element electric units have two thermostats that must be correctly sequenced.</p>
+      <h3>Thermocouple &amp; Pilot Assembly (Gas)</h3>
+      <p>A pilot that will not stay lit is almost always a thermocouple or pilot orifice issue. These are typically completed in under an hour.</p>
+      <h3>Anode Rod Replacement</h3>
+      <p>The sacrificial anode protects the tank from corrosion. In Concord’s water conditions many anodes are depleted within 4–6 years. Replacing the anode can add years of life to an otherwise healthy tank.</p>
+      <h3>T&amp;P Valve &amp; Drain Valve Service</h3>
+      <p>We test and replace temperature-and-pressure relief valves and clogged drain valves. A stuck T&amp;P valve is a safety issue that should never be ignored.</p>
+      <h3>Flushing &amp; Sediment Removal</h3>
+      <p>Sediment acts as insulation at the bottom of the tank, causing longer recovery times, higher energy use, and popping noises. Professional flushing restores efficiency.</p>
+
+      <h2>Repair vs. Replace — Honest Guidance</h2>
+      <p>We use a practical rule of thumb: if the tank is under 8–10 years old and the repair is under roughly half the cost of a comparable new unit, repair is usually the better financial decision. Once a tank develops a leak, replacement is the only safe option. We will never push replacement when a solid repair will restore reliable hot water.</p>
+
+      <h2>California Code &amp; Seismic Strapping</h2>
+      <p>Any new installation or major work must meet current California plumbing code and seismic bracing requirements. Concord sits in an active seismic region. We install proper strapping and flexible connectors on every replacement so your home is protected and the installation passes inspection.</p>
+
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary">Schedule Tank Water Heater Repair</a>
+      </div>
+    </div>
+  </section>
+</Layout>

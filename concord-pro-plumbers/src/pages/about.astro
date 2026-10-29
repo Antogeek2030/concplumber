@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+19255550199';
+const phoneDisplay = '(925) 555-0199';
+---
+<Layout title="About Us | Concord Pro Plumbers" description="Local licensed water heater specialists serving Concord and Contra Costa County. Same-day service, upfront pricing, written workmanship guarantee.">
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → About Us</div>
+      <h1>About Concord Pro Plumbers</h1>
+      <p>Local technicians focused on one thing: restoring reliable hot water to Concord and Contra Costa County homes quickly and honestly.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Who We Are</h2>
+      <p>We are a licensed, insured plumbing and water heater service team based in Concord. Our focus is residential water heater repair, maintenance, and installation — tank and tankless, gas and electric. We know the housing stock, the water conditions, and the California code requirements that apply here.</p>
+      <h2>How We Work</h2>
+      <ul>
+        <li><strong>Upfront pricing</strong> — Written estimate before any work begins. No surprise charges.</li>
+        <li><strong>Same-day priority</strong> — Most diagnostic and repair calls are completed the day you call.</li>
+        <li><strong>Honest repair vs. replace advice</strong> — We will not push a new unit when a solid repair will restore years of service.</li>
+        <li><strong>Code-compliant work</strong> — Seismic strapping, proper connectors, and venting done right the first time.</li>
+        <li><strong>Written workmanship guarantee</strong> — We stand behind every repair.</li>
+      </ul>
+      <h2>Our Location</h2>
+      <p>2644 Richard Ave, Concord, CA 94520. We serve Concord, Pleasant Hill, Walnut Creek, Martinez, Clayton, Pittsburg, Antioch, and surrounding communities.</p>
+      <div style="margin-top:2rem;text-align:center"><a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a></div>
+    </div>
+  </section>
+</Layout>

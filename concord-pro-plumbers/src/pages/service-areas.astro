@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+19255550199';
+const phoneDisplay = '(925) 555-0199';
+---
+<Layout title="Service Areas | Concord Pro Plumbers & Contra Costa County" description="Water heater repair service areas: Concord, Pleasant Hill, Walnut Creek, Martinez, Clayton, Pittsburg, Antioch and surrounding Contra Costa County communities.">
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Service Areas</div>
+      <h1>Areas We Serve</h1>
+      <p>Based in Concord, we provide same-day water heater repair and installation throughout Contra Costa County.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Primary Service Area</h2>
+      <p>We focus on Concord and the surrounding communities where we can maintain fast response times:</p>
+      <ul>
+        <li>Concord</li>
+        <li>Pleasant Hill</li>
+        <li>Walnut Creek</li>
+        <li>Martinez</li>
+        <li>Clayton</li>
+        <li>Pittsburg</li>
+        <li>Antioch</li>
+        <li>Bay Point</li>
+        <li>Pacheco</li>
+        <li>Clyde</li>
+      </ul>
+      <p>If you are just outside these areas, call us — we frequently accommodate nearby locations depending on schedule.</p>
+      <h2>Our Address</h2>
+      <p>2644 Richard Ave, Concord, CA 94520</p>
+      <div class="map-wrapper" style="height:380px;margin:1.5rem 0">
+        <iframe title="Service area map" src="https://www.openstreetmap.org/export/embed.html?bbox=-122.0565496%2C37.9663318%2C-122.0365496%2C37.9863318&amp;layer=mapnik&amp;marker=37.9763318%2C-122.0465496" loading="lazy" style="width:100%;height:100%;border:0"></iframe>
+      </div>
+      <div style="text-align:center;margin-top:1.5rem">
+        <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay} for Service</a>
+      </div>
+    </div>
+  </section>
+</Layout>

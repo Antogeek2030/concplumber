@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+19255550199';
+const phoneDisplay = '(925) 555-0199';
+---
+<Layout 
+  title="Water Heater Flush & Maintenance Concord CA"
+  description="Professional water heater flushing and maintenance in Concord, CA. Remove sediment, inspect anode, test T&P valve. Extend tank life and improve efficiency."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Services → Maintenance</div>
+      <h1>Water Heater Flush &amp; Maintenance</h1>
+      <p>Sediment and a depleted anode rod are the two biggest reasons water heaters fail early. Annual maintenance keeps your unit efficient and reliable.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Book Maintenance — {phoneDisplay}</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Why Maintenance Matters in Concord</h2>
+      <p>East Bay water can leave mineral deposits inside storage tanks. Over time sediment forms a layer at the bottom that acts like insulation. The burner or elements work harder, recovery times lengthen, energy bills rise, and the tank metal is stressed. Popping or rumbling noises are classic signs of heavy sediment.</p>
+      <p>The sacrificial anode rod is designed to corrode so the tank does not. Once the anode is gone, the tank itself begins to rust from the inside. Replacing the anode every 4–6 years (depending on water chemistry) is one of the highest-ROI maintenance tasks you can perform.</p>
+
+      <h2>What Our Maintenance Visit Includes</h2>
+      <ul>
+        <li>Full tank flush to remove sediment</li>
+        <li>Anode rod inspection and replacement if depleted</li>
+        <li>T&amp;P valve test</li>
+        <li>Drain valve inspection</li>
+        <li>Visual check of fittings, vents (gas), and electrical connections</li>
+        <li>Thermostat / temperature verification</li>
+        <li>Seismic strap and flexible connector inspection</li>
+      </ul>
+
+      <h2>Recommended Frequency</h2>
+      <p>Most Concord homes benefit from a flush every 12–18 months. Homes with very hard water or recirculation systems may need more frequent service. Tankless units should be descaled on a similar schedule.</p>
+
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary">Schedule a Maintenance Visit</a>
+      </div>
+    </div>
+  </section>
+</Layout>

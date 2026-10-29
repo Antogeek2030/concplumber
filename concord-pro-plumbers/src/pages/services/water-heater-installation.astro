@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+19255550199';
+const phoneDisplay = '(925) 555-0199';
+---
+<Layout 
+  title="Water Heater Installation Concord CA | Tank & Tankless"
+  description="Professional water heater installation in Concord, CA. Tank and tankless units, proper seismic strapping, code-compliant venting and gas lines. Same-day options available."
+>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Services → Installation</div>
+      <h1>Water Heater Installation in Concord, CA</h1>
+      <p>When repair no longer makes sense, we install the right tank or tankless unit for your home — sized correctly, strapped for seismic safety, and built to California code.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Get Installation Quote — {phoneDisplay}</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Choosing the Right Replacement</h2>
+      <p>We help you weigh tank vs. tankless, gas vs. electric, and capacity based on household size, simultaneous use, and available fuel. A properly sized unit lasts longer and costs less to operate.</p>
+
+      <h2>What Every Installation Includes</h2>
+      <ul>
+        <li>Removal and responsible disposal of the old unit</li>
+        <li>New tank or tankless water heater of your choice</li>
+        <li>California-compliant seismic strapping</li>
+        <li>Flexible water connectors and proper shut-off valves</li>
+        <li>Gas line and venting work as required (gas units)</li>
+        <li>Electrical connections to code (electric units)</li>
+        <li>Expansion tank evaluation for closed systems</li>
+        <li>Leak test and full operational verification</li>
+        <li>Permit guidance when required</li>
+      </ul>
+
+      <h2>Same-Day Installation Often Available</h2>
+      <p>Because we stock common sizes, many replacements can be completed the same day the decision is made. You go to bed with reliable hot water instead of waiting days for parts or scheduling.</p>
+
+      <div style="margin-top:2.5rem;text-align:center">
+        <a href={`tel:${phone}`} class="btn btn-primary">Request Installation Estimate</a>
+      </div>
+    </div>
+  </section>
+</Layout>
